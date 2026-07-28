@@ -112,7 +112,7 @@
   <li><strong>Barcode scan</strong> — the scanned barcode number is sent to retrieve that product’s nutrition facts.</li>
   <li><strong>Food search</strong> — the text you type in the search box is sent to return matching products.</li>
 </ol>
-<p>These requests contain no account identifier, no name, no device identifier added by us, and no logged-meal history. They are used solely to return results and are not stored by the app anywhere except on your device (as part of a meal, if you log it). Open Food Facts’ own privacy practices are described at <a href="https://world.openfoodfacts.org/privacy">world.openfoodfacts.org/privacy</a></p>
+<p>These requests contain no account identifier, no name, no device identifier added by us, and no logged-meal history. The app does identify <strong>itself</strong> in each request, with its name, version and a developer contact address, because Open Food Facts’ API guidelines ask callers to be reachable — that identifies us, not you. They are used solely to return results and are not stored by the app anywhere except on your device (as part of a meal, if you log it). Open Food Facts’ own privacy practices are described at <a href="https://world.openfoodfacts.org/privacy">world.openfoodfacts.org/privacy</a></p>
 <p>Requests are made over HTTPS (encrypted in transit).</p>
 
 <h2>Camera</h2>
